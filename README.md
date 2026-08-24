@@ -1,10 +1,10 @@
 <div align="center">
 
-# 👋 你好，我是 Ruifeng
+# 👋 Hi, I'm Ruifeng
 
-### AI 全栈开发 · Python 后端 · LLM 应用工程
+### AI Full-Stack Developer · Python Backend · LLM Application Engineering
 
-专注于将 **大模型能力真正落地为可用产品**
+Building **real-world AI products**, not just model demos.
 
 `Python` · `FastAPI` · `Vue 3` · `TypeScript` · `PostgreSQL` · `RAG` · `Agent` · `Docker`
 
@@ -16,21 +16,21 @@
 
 ---
 
-## 👨‍💻 关于我
+## 👨‍💻 About Me
 
-我是计算机科学与技术专业学生，目前主要专注于 **AI 应用开发与全栈工程实践**。
+I'm a Computer Science student focused on **AI application engineering and full-stack development**.
 
-相比单纯调用大模型 API，我更关注如何把 LLM 能力真正接入业务系统，包括：
+I enjoy turning LLM capabilities into real products — from backend architecture and database design to frontend interaction, AI workflows, testing, and deployment.
 
-* 🤖 **AI 应用**：LLM、RAG、Agent、多智能体、多模态
-* ⚡ **后端工程**：Python、FastAPI、AsyncIO、SQLAlchemy
-* 🎨 **前端开发**：Vue 3、TypeScript、Vite
-* 🗄️ **数据存储**：PostgreSQL、MySQL、Redis
-* 🔄 **实时交互**：SSE、异步任务、流式输出
-* 🐳 **工程化**：Docker、Pytest、Git、Nginx
-* 🧩 **浏览器扩展**：WXT、Chrome Extension Manifest V3
+* 🤖 **AI Applications** — LLM, RAG, Agent, Multi-Agent, Multimodal AI
+* ⚡ **Backend** — Python, FastAPI, AsyncIO, SQLAlchemy
+* 🎨 **Frontend** — Vue 3, TypeScript, Vite
+* 🗄️ **Database** — PostgreSQL, MySQL, Redis
+* 🔄 **Realtime Interaction** — SSE, streaming responses, async tasks
+* 🐳 **Engineering** — Docker, Pytest, Git, Nginx
+* 🧩 **Browser Extensions** — WXT, Chrome Extension Manifest V3
 
-目前正在持续深入：
+Currently exploring:
 
 ```text
 AI Application Engineering
@@ -38,13 +38,13 @@ AI Application Engineering
 ├── Agent Architecture
 │   ├── Tool Calling
 │   ├── Agent Workflow
-│   ├── Multi-Agent
+│   ├── Multi-Agent Systems
 │   └── Context Management
 │
 ├── RAG
 │   ├── Retrieval
-│   ├── Rerank
-│   ├── Chunk Strategy
+│   ├── Reranking
+│   ├── Chunking Strategy
 │   └── Evaluation
 │
 ├── Backend Engineering
@@ -55,7 +55,7 @@ AI Application Engineering
 │   └── System Design
 │
 └── AI Engineering
-    ├── SSE Streaming
+    ├── Streaming
     ├── Structured Output
     ├── Observability
     └── Production Deployment
@@ -63,53 +63,55 @@ AI Application Engineering
 
 ---
 
-# 🚀 精选项目
+# 🚀 Featured Projects
 
-## 🍽️ YY Kitchen — AI 家庭协同点餐平台
+## 🍽️ YY Kitchen — AI Family Dining Platform
 
-> 面向家庭场景开发的 AI 协同点餐平台，覆盖菜单管理、多人点餐、订单协作、AI 推荐与多模态食材识别。
+> A full-stack AI-powered collaborative dining platform designed for families.
 
-### 核心能力
+It combines menu management, collaborative ordering, AI recommendations, multimodal ingredient recognition, and real-time LLM interaction.
 
-* 🤖 基于 **多模态大模型 + RAG** 构建 AI 厨房助手
-* 📷 支持上传冰箱图片识别食材，并结合家庭菜品和饮食偏好生成个性化推荐
-* 🔎 检索家庭菜品、饮食偏好、历史用餐数据作为推荐上下文
-* ⚡ 设计 `ready / delta / complete / error` SSE 事件协议
-* 🔐 实现 JWT 鉴权与家庭级数据权限隔离
-* 🗄️ 使用 SQLAlchemy Async + PostgreSQL 构建异步数据访问层
-* 🏗️ 采用 `API → Service → Repository` 分层架构
-* 🔄 使用 Alembic 管理数据库版本
-* 🧪 使用 Pytest 覆盖核心业务流程
-* 🐳 基于 Docker Compose 完成容器化部署
+### Highlights
 
-### 技术栈
+* 🤖 Built an AI kitchen assistant with **Multimodal LLM + RAG**
+* 📷 Supports refrigerator image recognition and ingredient extraction
+* 🔎 Retrieves family dishes, dietary preferences, and dining history as recommendation context
+* ⚡ Designed a custom SSE protocol with `ready / delta / complete / error`
+* 🔐 Implemented JWT authentication and family-level data isolation
+* 🗄️ Built an async backend with SQLAlchemy Async + PostgreSQL
+* 🏗️ Adopted `API → Service → Repository` layered architecture
+* 🔄 Managed database migrations with Alembic
+* 🧪 Covered core backend workflows with Pytest
+* 🐳 Deployed with Docker Compose
+
+### Tech Stack
 
 `Python` `FastAPI` `Vue 3` `TypeScript` `PostgreSQL`
 
 `SQLAlchemy Async` `Alembic` `JWT` `RAG` `SSE`
 
-`Pytest` `Docker` `Nginx / Caddy`
+`Pytest` `Docker` `Nginx` `Caddy`
 
-👉 [查看项目](https://github.com/fengfeng-666/yy--)
+👉 [View Project](https://github.com/fengfeng-666/yy--)
 
 ---
 
-## 🍳 厨灵 — 多模态 AI 智能菜谱系统
+## 🍳 Chuling AI Chef — Multimodal AI Recipe Assistant
 
-> 基于多模态大模型开发的 AI 菜谱助手，可以通过自然语言或食材图片生成个性化菜谱。
+> An AI-powered cooking assistant that generates personalized recipes from text or ingredient images.
 
-### 核心能力
+### Highlights
 
-* 🧠 接入 **Qwen3.5-Omni-Plus** 多模态大模型
-* 📷 支持上传食材图片进行识别与菜谱生成
-* 💬 实现多轮 AI 对话和聊天历史持久化
-* ⚡ 基于 SSE 实现大模型内容实时流式输出
-* 🔐 实现用户注册、登录与 JWT 身份认证
-* 🗄️ 支持 PostgreSQL 数据持久化
-* 🐳 支持 Docker / Docker Compose 部署
-* ❤️ 支持菜谱收藏、步骤管理等完整产品功能
+* 🧠 Integrated **Qwen3.5-Omni-Plus** multimodal model
+* 📷 Supports ingredient image recognition
+* 💬 Persistent multi-turn conversation history
+* ⚡ Real-time LLM streaming with SSE
+* 🔐 JWT-based authentication
+* 🗄️ PostgreSQL data persistence
+* 🐳 Docker / Docker Compose deployment
+* ❤️ Recipe collection and cooking step management
 
-### 技术栈
+### Tech Stack
 
 `Python` `FastAPI` `Vue 3` `Qwen`
 
@@ -117,25 +119,25 @@ AI Application Engineering
 
 `SSE` `Docker`
 
-👉 [查看项目](https://github.com/fengfeng-666/chuling-ai-chef)
+👉 [View Project](https://github.com/fengfeng-666/chuling-ai-chef)
 
 ---
 
-## 🛒 AI 智能电商平台
+## 🛒 AI Shop Platform
 
-> 将传统电商业务与 AI 推荐、RAG 智能问答相结合的全栈应用。
+> A full-stack e-commerce application enhanced with RAG-powered Q&A and AI recommendation capabilities.
 
-### 核心能力
+### Highlights
 
-* 🛍️ 实现商品、分类、购物车、订单等完整电商业务
-* 🤖 集成 RAG，实现基于商品数据的智能问答
-* 🎯 实现个性化商品推荐能力
-* 🔐 基于 JWT / OAuth2 实现用户认证
-* 🗄️ 使用 SQLAlchemy 完成 ORM 数据建模
-* 🌐 Vue 3 + FastAPI 前后端分离架构
-* ✅ 使用 Pydantic 完成请求与响应数据校验
+* 🛍️ Complete product, category, cart, and order workflows
+* 🤖 RAG-powered product Q&A
+* 🎯 Personalized recommendation capabilities
+* 🔐 JWT / OAuth2 authentication
+* 🗄️ SQLAlchemy ORM data modeling
+* 🌐 Vue 3 + FastAPI frontend/backend architecture
+* ✅ Pydantic-based request and response validation
 
-### 技术栈
+### Tech Stack
 
 `Python` `FastAPI` `Vue 3`
 
@@ -143,59 +145,62 @@ AI Application Engineering
 
 `RAG` `JWT` `OAuth2`
 
-👉 [查看项目](https://github.com/fengfeng-666/ai-shop-platform)
+👉 [View Project](https://github.com/fengfeng-666/ai-shop-platform)
 
 ---
 
-## 🤖 Multi-Agent 软件开发协作实验
+## 🤖 Multi-Agent Software Development Experiment
 
-> 基于 AutoGen 探索多个 Agent 在软件开发任务中的角色协作和任务编排。
+> An AutoGen-based project exploring role collaboration and workflow orchestration among multiple AI Agents.
 
-当前主要用于学习与实验：
+Currently used for learning and experimentation with:
 
 * Product Manager Agent
 * Engineer Agent
 * Code Reviewer Agent
 * User Proxy Agent
 * RoundRobinGroupChat
-* Agent System Prompt
-* Termination Condition
-* Multi-Agent Workflow
+* Agent System Prompts
+* Termination Conditions
+* Multi-Agent Workflows
 
-### 技术栈
+### Tech Stack
 
 `Python` `AutoGen` `AsyncIO` `LLM`
 
-👉 [查看项目](https://github.com/fengfeng-666/ai-software-team)
+👉 [View Project](https://github.com/fengfeng-666/ai-software-team)
 
-> 📌 该项目目前属于 Agent 学习与二次实践项目，正在进一步进行工程化改造。
-
----
-
-# 💼 工程实践
-
-除了个人项目，我也在真实业务项目中持续进行全栈工程实践。
-
-目前接触和实践的业务方向包括：
-
-* AI 商品推荐
-* 新闻热点商品化分析
-* 跨境电商商品采集
-* Chrome Extension 自动化
-* 异步任务处理
-* 数据去重与失败重试
-* 长任务断点恢复
-* JWT / RBAC 权限控制
-* PostgreSQL 数据建模
-* Docker 服务部署
-
-相比只完成一个 Demo，我更关注：
-
-> **系统能不能稳定运行、异常后能不能恢复、数据是否一致、任务能不能追踪，以及模型能力如何真正接入业务。**
+> 📌 This project is currently a learning and secondary-development experiment and is being further engineered.
 
 ---
 
-# 🧰 技术栈
+# 💼 Engineering Experience
+
+Beyond personal projects, I also work on real-world full-stack business systems.
+
+My engineering experience includes:
+
+* AI-powered product recommendation
+* News-to-product opportunity analysis
+* Cross-border e-commerce data collection
+* Chrome Extension automation
+* Async task processing
+* Data deduplication
+* Retry mechanisms
+* Long-running task recovery
+* JWT / RBAC authorization
+* PostgreSQL data modeling
+* Docker-based deployment
+
+I care about more than just making a demo work.
+
+I also focus on:
+
+> **Reliability, recoverability, data consistency, task observability, and how AI capabilities integrate into real business systems.**
+
+---
+
+# 🧰 Tech Stack
 
 ## 🤖 AI / LLM
 
@@ -206,8 +211,6 @@ AI Application Engineering
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/AutoGen-Multi--Agent-blue?style=for-the-badge"/>
 </p>
-
-主要实践：
 
 `LLM Integration`
 
@@ -221,7 +224,7 @@ AI Application Engineering
 
 `Context Management`
 
-`Multimodal`
+`Multimodal AI`
 
 `Structured Output`
 
@@ -237,8 +240,6 @@ AI Application Engineering
 <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white"/>
 </p>
-
-主要实践：
 
 `FastAPI`
 
@@ -270,8 +271,6 @@ AI Application Engineering
 <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
 </p>
 
-主要实践：
-
 `Vue 3`
 
 `Composition API`
@@ -294,11 +293,11 @@ AI Application Engineering
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
 </p>
 
-主要关注：
+Currently focusing on:
 
-`Index`
+`Indexing`
 
-`Transaction`
+`Transactions`
 
 `Concurrency Control`
 
@@ -322,19 +321,17 @@ AI Application Engineering
 <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
 </p>
 
-主要实践：
-
 `Docker`
 
 `Docker Compose`
 
 `Pytest`
 
-`Git Flow`
+`Git`
 
 `Nginx`
 
-`Health Check`
+`Health Checks`
 
 `Retry`
 
@@ -343,8 +340,6 @@ AI Application Engineering
 ---
 
 ## 🧩 Browser Extension
-
-主要实践：
 
 `Chrome Extension`
 
@@ -364,11 +359,9 @@ AI Application Engineering
 
 ---
 
-# 🧠 当前重点
+# 🧠 Current Focus
 
-目前正在重点提升三个方向：
-
-### ① 后端工程能力
+## ① Backend Engineering
 
 ```text
 Database
@@ -379,12 +372,12 @@ Cache
    ↓
 Message Queue
    ↓
-Distributed System
+Distributed Systems
    ↓
 System Design
 ```
 
-### ② AI 应用工程
+## ② AI Application Engineering
 
 ```text
 Prompt
@@ -400,39 +393,39 @@ Evaluation
 Production
 ```
 
-### ③ AI 全栈产品能力
+## ③ AI Full-Stack Engineering
 
 ```text
-需求
- ↓
-前端
- ↓
+Product Requirement
+       ↓
+Frontend
+       ↓
 API
- ↓
-数据库
- ↓
+       ↓
+Database
+       ↓
 LLM / Agent
- ↓
-测试
- ↓
+       ↓
+Testing
+       ↓
 Docker
- ↓
-部署
+       ↓
+Deployment
 ```
 
-目标不是单纯“调用一个模型”。
+My goal is not simply to call an LLM API.
 
-而是：
+I want to be able to:
 
-> **能够独立完成一个 AI 产品从需求、架构、开发到部署的完整闭环。**
+> **Build an AI product end-to-end — from architecture and development to testing and production deployment.**
 
 ---
 
-# 📊 GitHub 数据
+# 📊 GitHub Stats
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=fengfeng-666&show_icons=true&hide_border=true&include_all_commits=true&count_private=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=fengfeng-666&show_icons=true&hide_border=true&include_all_commits=true"/>
 
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fengfeng-666&layout=compact&hide_border=true"/>
 
@@ -440,29 +433,32 @@ Docker
 
 ---
 
-# 📌 推荐查看
+# 📌 Start Here
 
-如果你第一次来到我的 GitHub，可以优先看看：
+If you're visiting my GitHub for the first time, I recommend checking out:
 
-1. 🍽️ **YY Kitchen**
-   AI 全栈 / RAG / 多模态 / SSE / PostgreSQL / Docker
+### 🍽️ YY Kitchen
 
-2. 🍳 **厨灵 AI Chef**
-   多模态 LLM / FastAPI / Vue3 / 流式 AI 应用
+`AI Full-Stack` · `RAG` · `Multimodal` · `SSE` · `PostgreSQL` · `Docker`
 
-3. 🛒 **AI Shop Platform**
-   RAG / 电商业务 / FastAPI / Vue3
+### 🍳 Chuling AI Chef
+
+`Multimodal LLM` · `FastAPI` · `Vue 3` · `Streaming AI`
+
+### 🛒 AI Shop Platform
+
+`RAG` · `E-commerce` · `FastAPI` · `Vue 3`
 
 ---
 
 <div align="center">
 
-## 💡 Build → Understand → Improve
+## Build → Understand → Improve
 
-### 不只让代码跑起来，也想弄清楚它为什么这样运行。
+### I don't just want code to run. I want to understand why it works.
 
 <br/>
 
-**AI Application · Backend Engineering · Full Stack**
+**AI Application Engineering · Backend Engineering · Full-Stack Development**
 
 </div>
